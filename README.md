@@ -3,7 +3,10 @@ This is where I will solve the problems for Google Code Jam, both current year a
 My script source is what I'll change each time to run the functions.
 
 
-The sheep counting function works.  7 points in the bag.  See below.
+The sheep counting function works.  7 points in the bag.  The question is: a sheep is trying to fall asleep and starts counting sheep with a number written on their fur.  The second sheep has the number * 2 on his fur, the third has the number * 3 and so on.  At what number will the sheep have seen all the digits 0-9 at least once.
+
+For example: input 2, output 90
+(because on the 45th sheep he will finally have seen the digit 9)
 
 ```js
 function counting(n){
